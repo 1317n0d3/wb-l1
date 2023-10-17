@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Таблица данных</title>
+  <link rel="stylesheet" href="./24.css">
+</head>
+
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">First Name</th>
+        <th onclick="sortTable(1)">Last Name</th>
+        <th onclick="sortTable(2)">Phone</th>
+        <th onclick="sortTable(3)">Address</th>
+        <th onclick="sortTable(4)">City</th>
+        <th onclick="sortTable(5)">State</th>
+        <th onclick="sortTable(6)">Zip</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <div class="pagination"></div>
+  <script src="./24.js"></script>
+</body>
+
+</html>
